@@ -1,0 +1,21 @@
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+    height:100%;
+}
+body{
+    overflow-anchor:none;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image:url(../Images/Background.png);
+    background-size:cover;
+}
+
+@font-face{
+    font-family: LaObrige;
+    src: url(../Fonts/La\ Obrige.otf);
+}
+
+.lyrics{
+    font-family:LaObrige;
+}

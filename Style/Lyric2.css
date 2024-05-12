@@ -1,0 +1,94 @@
+.Lyric2{
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20em;
+    height: 55em;
+}
+
+.subtext{
+    font-family:El+Messiri;
+    color:rgba(255, 147, 169, 0.70);
+    margin:0;
+    padding:0;
+
+}
+
+.result_menu .lyrics{
+    color:  rgb(255, 147, 169);
+    padding:0;
+    margin:0;
+}
+
+.Lyric2 #search_bar{
+    transition: all 0.5s ease;
+    width: 60%;
+    position:absolute;
+    border-width:0;
+    padding: 20px;
+    font-family:LaObrige;
+    font-size:26px;
+    border-radius: 30px;
+    color:rgb(255, 147, 169);
+    box-shadow:inset 0 5px 5px rgb(255, 147, 169);
+    z-index: 3;
+}
+
+#search_bar:focus{
+    outline-color:rgb(255, 147, 169);
+}
+
+#search_bar:focus + .search_result{
+    display:block;
+}
+
+
+.search_result{
+    box-shadow:0 0 8px rgba(236, 130, 151, 0.785);
+    display:none;
+    border-radius: 25px;
+    margin-top:28em;
+    width: 58.5em;
+    background-color: white;
+    padding: 25x 0px;
+    z-index: 2;
+}
+
+.result_menu{
+    transition: all 0.5s ease;
+    font-size: 26px;
+    display:flex;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.result_menu div{
+    flex:2;
+}
+
+.result_menu button{
+    transition: all 0.2s ease;
+    font-size: 20px;
+    padding:2px 40px;
+    background-color: transparent;
+    border-style:solid;
+    border-color:rgb(255, 147, 169);
+    color:rgb(255, 147, 169);
+    font-family:LaObrige;
+    border-radius:35px;
+}
+
+.result_menu button:hover{
+    cursor:pointer;
+    background-color:rgb(255, 147, 169);
+    color:white;
+}
+
+.Lyric2 img{
+    top:3em;
+    position:absolute;
+}
+
+
+

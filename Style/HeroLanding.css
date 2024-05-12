@@ -1,0 +1,85 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items:baseline;
+    margin-bottom: 2em;
+}
+
+.header > .links{
+    color:white;
+    
+}
+
+.links{
+    margin-left:8em;
+    display:flex;
+    align-items:baseline;
+    justify-content: space-between;
+    width:50%;
+}
+
+#Home{
+    font-family:LaObrige;
+    font-size:48px;
+}
+
+.outer_link{
+    transition: color 0.8s;
+    color:white;
+    text-decoration:none;
+    font-family:El+Messiri;
+    font-size:26px;
+}
+
+.outer_link:hover{
+    color: rgb(246, 90, 121);
+}
+
+#heart_icon{
+    padding-right:7em;
+}
+
+#hero_landing{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll_container{
+    Left: 0px;
+    position: absolute;
+
+}
+
+.scroll{
+    white-space: nowrap;
+    margin: 0 2em;
+}
+
+.scroll p{
+    font-family:LaObrige;
+    font-size: 5em;
+    color:white;
+}
+
+.scroll div {
+    display: flex;
+    gap:1em;
+}
+
+.scroll_text{
+    animation: RightToLeft 20s infinite linear;
+}
+
+@keyframes RightToLeft{
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+#hero_landing img{
+    border-radius:15px;
+}
