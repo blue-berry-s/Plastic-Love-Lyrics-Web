@@ -1,0 +1,13 @@
+.Lyric7{
+    padding: 7em 0em;
+    margin-bottom: 10em;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+
+.Lyric7 .lyrics{
+    font-size: 5em;
+    color:white;
+}
